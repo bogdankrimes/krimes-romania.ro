@@ -164,15 +164,23 @@ section img#rec
     height: 1px;
     position: center;
 }
-.btnx
+#btnx
 {
+    align-items: center;
     text-decoration: none;
-    display: inline-block;
-    padding: 8px 30px;
-    border-radius: 40px;
+    padding: 6px 20px;
     background: #fff;
-    color: #ffffff;
-    font-size: 1.5em;
-    z-index: 9;
-    transform: translateY(100px);
+    color: #2b1055;
+    border-radius: 40px;
+}
+#stfu
+{
+    align-items: center;
+text-decoration: none;
+padding: 6px 20px;
+border-radius: 40px;
+background: #fff;
+color: #2b1055;
+font-size: 1em;
+transform: translateY(100px);
 }
