@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+  <head>
+    <tile></tile>
+    <link rel="stylesheet" type="text/css" href="style3.css">
+    </head>
+    <body>
+      <header>
+       <a herf="#" class="logo">Preferinte Romania</a>
+       <ul>
+       <il><a href="index.html" id="btnx">Home</a></il>
+       <li><a herf="#"> About </a></li>
+       <li><a herf="#"> Work </a></li>
+       <li><a herf="#" class=active> Rules </a></li>
+       <li><a herf="#"> Tickets </a></li>
+       </ul>
+      </header>
+      <section>
+         <img src="boglex.png" id="boglex">
+         <img src="wallpaper.jpg" id="walpeipar">
+         <h2 id="text">Regulament</h2>
+         <a href="#sec" id="btn"> Vezi Regulamentul</a>
+      </section>
+      <div class="sec" id ="sec">
+         <h2>Regulament General</h2> 
+         <h2>Power Gaming</h2>
+         <p>Powergamingul reprezintă roleplay-ul supranatural al unui jucător sau neacordarea de șanse egale intr-un roleplay. | Exemple: Când circuli cu mașina cu 2 sau mai multe roti sparte.</p>
+         <h2>Random Death Match</h2>
+         <p></p>
+         <p></p>
+         <p>Random Death Match-ul sau RDM-ul reprezintă atacarea si sau uciderea unui jucător fără a avea motive întemeiate pentru a comite o astfel de fapta sau fără a face role play si a respecta alte reguli role play în acțiunea pe care o întreprindeți.
+            RDM Random Death Match - RDM înseamnă acel moment când omori pe cineva fără un scop roleplay total întâmplător.</p>
+         </div>
+
+         <script>
+         let stars = document.getElementById('stars');
+         let moon = document.getElementById('moon');
+         let mountains_behind = document.getElementById('mountains_behind');
+         let mountains_front = document.getElementById('mountains_front');
+
+         window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            stars.style.left = value * 0.25 + 'px';
+            moon.style.top = value * 1.05 + 'px';
+            text.style.marginRight = value * 4 + 'px';
+         })
+         </script>
+   </body>
+</html>
