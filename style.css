@@ -152,10 +152,11 @@ section img#mountains_front
 #btnh
 {
     align-items: center;
-    position: sticky;
     text-decoration: none;
-    padding: 5px 30px;
+    padding: 10px 20px;
+    border-radius: 40px;
     background: #fff;
     color: #2b1055;
-    border-radius:40px;
+    font-size: 1em;
+    transform: translateY(100px);
 }
